@@ -5,4 +5,4 @@ containers:
   ports:
   - name: http
     hostPort: 80
-    containerPort: 8080
+    containerPort: 8081
