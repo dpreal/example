@@ -7,8 +7,8 @@ stages:
         mkdir -p /go/src/github.com/vipidp
         ln -s `pwd` /go/src/github.com/vipidp/example
         cd /go/src/github.com/vipidp/example/outyet
-        go build -o bin/outyet
-        ls bin/outyet
+        go build -o /go/src/app/outyet
+        ls /go/src/app/
 - name: gotest
   steps:
   - runScriptConfig:
