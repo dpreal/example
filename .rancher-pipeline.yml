@@ -22,7 +22,7 @@ stages:
   - publishImageConfig:
       dockerfilePath: ./outyet/Dockerfile
       buildContext: .
-      tag: test/gohello:${CICD_EXECUTION_SEQUENCE}
+      tag: test/gohello:latest
       pushRemote: true
-      registry: https://hub.birucloud.com
+      registry: hub.birucloud.com
 timeout: 60
