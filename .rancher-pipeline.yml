@@ -23,5 +23,6 @@ stages:
       dockerfilePath: ./outyet/Dockerfile
       buildContext: .
       tag: test/gohello:${CICD_EXECUTION_SEQUENCE}
+      pushRemote: true
       registry: https://hub.birucloud.com
 timeout: 60
