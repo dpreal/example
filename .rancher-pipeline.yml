@@ -8,6 +8,7 @@ stages:
         ln -s `pwd` /go/src/github.com/vipidp/example
         cd /go/src/github.com/vipidp/example/outyet
         go build -o bin/outyet
+        ls bin/outyet
 - name: gotest
   steps:
   - runScriptConfig:
