@@ -8,7 +8,7 @@ stages:
         mkdir -p $GOPATH/src/github.com/vipidp
         ln -s `pwd` $GOPATH/src/github.com/vipidp/example
         cd $GOPATH/src/github.com/vipidp/example/outyet
-        go build -o .
+        go build -o ./outyet
         ls
 - name: gotest
   steps:
