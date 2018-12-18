@@ -31,6 +31,6 @@ spec:
       - name: hub
       containers:
       - name: maven
-        image: hub.birucloud.com/test/gohello:stable
+        image: hub.birucloud.com/test/gohello:latest
         ports:
         - containerPort: 8081
