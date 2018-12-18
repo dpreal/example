@@ -27,4 +27,8 @@ stages:
       tag: test/gohello:latest
       pushRemote: true
       registry: hub.birucloud.com
+- name: deployment
+  steps:
+  - applyYamlConfig:
+      path: ./outyet/deployment.yaml
 timeout: 60
