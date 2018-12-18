@@ -8,8 +8,8 @@ stages:
         mkdir -p $GOPATH/src/github.com/vipidp
         ln -s `pwd` $GOPATH/src/github.com/vipidp/example
         cd $GOPATH/src/github.com/vipidp/example/outyet
-        go build -o $GOPATH/src/app/outyet
-        ls $GOPATH/src/app/
+        go build -o .
+        ls
 - name: gotest
   steps:
   - runScriptConfig:
