@@ -31,6 +31,6 @@ spec:
       - name: hub
       containers:
       - name: maven
-        image: hub.birucloud.com/test/gohello:latest
+        image: ${CICD_IMAGE}:${CICD_EXECUTION_SEQUENCE}
         ports:
         - containerPort: 8081
