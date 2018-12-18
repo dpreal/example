@@ -5,4 +5,4 @@ MAINTAINER birucloud-golang-demo
 WORKDIR $GOPATH/src/app/
 COPY ./outyet $GOPATH/src/app/
 EXPOSE 8081
-#ENTRYPOINT ["./outyet"]
+ENTRYPOINT ["./outyet"]
